@@ -1,0 +1,33 @@
+[2025-01-31T03:11:13.664+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-31T03:11:13.692+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: validate_and_insert_csv_to_postgres_with_branch_adjusted.check_files_branch_task manual__2025-01-31T03:11:07.829801+00:00 [queued]>
+[2025-01-31T03:11:13.705+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: validate_and_insert_csv_to_postgres_with_branch_adjusted.check_files_branch_task manual__2025-01-31T03:11:07.829801+00:00 [queued]>
+[2025-01-31T03:11:13.706+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-01-31T03:11:13.721+0000] {taskinstance.py:2888} INFO - Executing <Task(BranchPythonOperator): check_files_branch_task> on 2025-01-31 03:11:07.829801+00:00
+[2025-01-31T03:11:13.735+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=290) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-31T03:11:13.737+0000] {standard_task_runner.py:72} INFO - Started process 299 to run task
+[2025-01-31T03:11:13.738+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'validate_and_insert_csv_to_postgres_with_branch_adjusted', 'check_files_branch_task', 'manual__2025-01-31T03:11:07.829801+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/read_file_updated.py', '--cfg-path', '/tmp/tmpyaaa0j6t']
+[2025-01-31T03:11:13.740+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask check_files_branch_task
+[2025-01-31T03:11:13.801+0000] {task_command.py:467} INFO - Running <TaskInstance: validate_and_insert_csv_to_postgres_with_branch_adjusted.check_files_branch_task manual__2025-01-31T03:11:07.829801+00:00 [running]> on host e2498a6c8083
+[2025-01-31T03:11:13.894+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='validate_and_insert_csv_to_postgres_with_branch_adjusted' AIRFLOW_CTX_TASK_ID='check_files_branch_task' AIRFLOW_CTX_EXECUTION_DATE='2025-01-31T03:11:07.829801+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-31T03:11:07.829801+00:00'
+[2025-01-31T03:11:13.895+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-31T03:11:13.896+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-31T03:11:13.897+0000] {logging_mixin.py:190} INFO - Current task name:check_files_branch_task state:running start_date:2025-01-31 03:11:13.693942+00:00
+[2025-01-31T03:11:13.898+0000] {logging_mixin.py:190} INFO - Dag name:validate_and_insert_csv_to_postgres_with_branch_adjusted and current dag run status:running
+[2025-01-31T03:11:13.899+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-31T03:11:13.900+0000] {baseoperator.py:405} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2025-01-31T03:11:13.904+0000] {logging_mixin.py:190} INFO - Files found: ['invalid_records.csv', 'valid_records.csv']
+[2025-01-31T03:11:13.920+0000] {python.py:240} INFO - Done. Returned value was: validate_records_task
+[2025-01-31T03:11:13.921+0000] {branch.py:38} INFO - Branch into validate_records_task
+[2025-01-31T03:11:13.922+0000] {skipmixin.py:230} INFO - Following branch ('validate_records_task',)
+[2025-01-31T03:11:13.936+0000] {skipmixin.py:278} INFO - Skipping tasks [('no_files_task', -1)]
+[2025-01-31T03:11:13.978+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-31T03:11:13.979+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=validate_and_insert_csv_to_postgres_with_branch_adjusted, task_id=check_files_branch_task, run_id=manual__2025-01-31T03:11:07.829801+00:00, execution_date=20250131T031107, start_date=20250131T031113, end_date=20250131T031113
+[2025-01-31T03:11:13.993+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-31T03:11:13.994+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-31T03:11:13.995+0000] {logging_mixin.py:190} INFO - Dag name:validate_and_insert_csv_to_postgres_with_branch_adjusted queued_at:2025-01-31 03:11:07.850402+00:00
+[2025-01-31T03:11:13.995+0000] {logging_mixin.py:190} INFO - Task hostname:e2498a6c8083 operator:BranchPythonOperator
+[2025-01-31T03:11:14.035+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-31T03:11:14.067+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-31T03:11:14.070+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

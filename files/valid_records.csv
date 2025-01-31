@@ -1,0 +1,6 @@
+emp_id,name,Surname,Location,city,pin,doj
+E001,John,Doe,New York,NY,123456,12-01-2020
+E002,Alice,Smith,Los Angeles,CA,654321,05-06-2018
+E003,Robert,Brown,Chicago,IL,111222,23-11-2019
+E004,Mary,Johnson,Houston,TX,333444,15-02-2021
+E005,Linda,Williams,Phoenix,AZ,555666,30-09-2022
