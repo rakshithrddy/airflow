@@ -615,3 +615,1309 @@
 [2025-01-31T03:41:29.614+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:41:29.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-31T03:41:29.639+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:41:29.639+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
 [2025-01-31T03:41:29.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.146 seconds
+[2025-01-31T03:56:10.428+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:56:10.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:56:10.433+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:56:10.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:56:10.464+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:56:10.489+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:56:10.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:56:10.512+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:56:10.511+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:56:10.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.112 seconds
+[2025-01-31T03:56:41.223+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:56:41.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:56:41.226+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:56:41.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:56:41.256+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:56:41.275+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:56:41.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:56:41.303+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:56:41.303+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:56:41.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.101 seconds
+[2025-01-31T03:57:12.127+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:57:12.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:57:12.135+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:57:12.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:57:12.161+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:57:12.185+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:57:12.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:57:12.211+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:57:12.211+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:57:12.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.113 seconds
+[2025-01-31T03:57:42.524+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:57:42.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:57:42.528+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:57:42.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:57:42.552+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:57:42.576+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:57:42.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:57:42.605+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:57:42.604+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:57:42.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.115 seconds
+[2025-01-31T03:58:13.127+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:58:13.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:58:13.129+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:58:13.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:58:13.152+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:58:13.171+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:58:13.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:58:13.207+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:58:13.207+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:58:13.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.106 seconds
+[2025-01-31T03:58:43.972+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:58:43.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:58:43.975+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:58:43.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:58:44.000+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:58:44.020+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:58:44.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:58:44.043+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:58:44.043+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:58:44.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.095 seconds
+[2025-01-31T03:59:14.182+0000] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:59:14.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:59:14.185+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:59:14.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:59:14.216+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:59:14.242+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:59:14.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:59:14.273+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:59:14.272+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:59:14.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.117 seconds
+[2025-01-31T03:59:44.523+0000] {processor.py:186} INFO - Started process (PID=564) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:59:44.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T03:59:44.525+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:59:44.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:59:44.545+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T03:59:44.567+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:59:44.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T03:59:44.590+0000] {logging_mixin.py:190} INFO - [2025-01-31T03:59:44.589+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T03:59:44.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.091 seconds
+[2025-01-31T04:00:14.932+0000] {processor.py:186} INFO - Started process (PID=634) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:00:14.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:00:14.935+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:00:14.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:00:14.955+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:00:14.975+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:00:14.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:00:15.008+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:00:15.008+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:00:15.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.101 seconds
+[2025-01-31T04:00:45.315+0000] {processor.py:186} INFO - Started process (PID=706) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:00:45.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:00:45.319+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:00:45.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:00:45.343+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:00:45.365+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:00:45.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:00:45.389+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:00:45.389+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:00:45.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.097 seconds
+[2025-01-31T04:01:15.502+0000] {processor.py:186} INFO - Started process (PID=775) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:01:15.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:01:15.505+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:01:15.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:01:15.525+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:01:15.545+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:01:15.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:01:15.568+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:01:15.567+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:01:15.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.089 seconds
+[2025-01-31T04:02:11.153+0000] {processor.py:186} INFO - Started process (PID=820) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:02:11.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:02:11.157+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:02:11.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:02:11.208+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:02:11.264+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:02:11.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:02:11.318+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:02:11.318+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:02:11.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.226 seconds
+[2025-01-31T04:02:41.784+0000] {processor.py:186} INFO - Started process (PID=890) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:02:41.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:02:41.788+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:02:41.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:02:41.835+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:02:41.867+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:02:41.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:02:41.907+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:02:41.907+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:02:41.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.169 seconds
+[2025-01-31T04:03:25.537+0000] {processor.py:186} INFO - Started process (PID=936) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:03:25.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:03:25.549+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:03:25.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:03:25.615+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:03:25.678+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:03:25.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:03:25.774+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:03:25.773+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:03:25.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.338 seconds
+[2025-01-31T04:03:56.038+0000] {processor.py:186} INFO - Started process (PID=1005) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:03:56.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:03:56.041+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:03:56.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:03:56.064+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:03:56.087+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:03:56.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:03:56.120+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:03:56.120+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:03:56.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.125 seconds
+[2025-01-31T04:04:26.447+0000] {processor.py:186} INFO - Started process (PID=1074) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:04:26.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:04:26.451+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:04:26.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:04:26.480+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:04:26.502+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:04:26.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:04:26.527+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:04:26.525+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:04:26.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.114 seconds
+[2025-01-31T04:04:56.690+0000] {processor.py:186} INFO - Started process (PID=1143) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:04:56.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:04:56.693+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:04:56.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:04:56.729+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:04:56.788+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:04:56.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:04:56.847+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:04:56.847+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:04:56.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.192 seconds
+[2025-01-31T04:05:28.059+0000] {processor.py:186} INFO - Started process (PID=1204) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:05:28.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:05:28.067+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:05:28.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:05:28.120+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:05:28.168+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:05:28.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:05:28.239+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:05:28.239+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:05:28.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.261 seconds
+[2025-01-31T04:05:58.963+0000] {processor.py:186} INFO - Started process (PID=1279) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:05:58.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:05:58.968+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:05:58.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:05:59.021+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:05:59.083+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:05:59.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:05:59.135+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:05:59.134+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:05:59.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.203 seconds
+[2025-01-31T04:06:29.888+0000] {processor.py:186} INFO - Started process (PID=1349) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:06:29.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:06:29.891+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:06:29.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:06:29.941+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:06:29.974+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:06:29.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:06:29.999+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:06:29.998+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:06:30.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.144 seconds
+[2025-01-31T04:07:42.079+0000] {processor.py:186} INFO - Started process (PID=1405) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:07:42.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:07:42.086+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:07:42.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:07:42.146+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:07:42.190+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:07:42.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:07:42.243+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:07:42.243+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:07:42.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.239 seconds
+[2025-01-31T04:08:13.034+0000] {processor.py:186} INFO - Started process (PID=1475) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:08:13.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:08:13.037+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:08:13.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:08:13.061+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:08:13.179+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:08:13.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:08:13.219+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:08:13.219+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:08:13.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.221 seconds
+[2025-01-31T04:08:43.360+0000] {processor.py:186} INFO - Started process (PID=1546) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:08:43.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:08:43.362+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:08:43.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:08:43.387+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:08:43.412+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:08:43.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:08:43.435+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:08:43.435+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:08:43.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.097 seconds
+[2025-01-31T04:10:00.281+0000] {processor.py:186} INFO - Started process (PID=1590) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:10:00.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:10:00.289+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:10:00.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:10:00.399+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:10:00.515+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:10:00.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:10:00.733+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:10:00.732+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:10:00.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.526 seconds
+[2025-01-31T04:10:31.493+0000] {processor.py:186} INFO - Started process (PID=1659) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:10:31.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:10:31.496+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:10:31.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:10:31.525+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:10:31.560+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:10:31.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:10:31.593+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:10:31.592+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:10:31.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.146 seconds
+[2025-01-31T04:12:25.037+0000] {processor.py:186} INFO - Started process (PID=1727) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:12:25.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:12:25.041+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:12:25.041+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:12:25.065+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:12:25.089+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:12:25.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:12:25.119+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:12:25.119+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:12:25.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.111 seconds
+[2025-01-31T04:12:55.643+0000] {processor.py:186} INFO - Started process (PID=1796) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:12:55.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:12:55.648+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:12:55.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:12:55.687+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:12:55.720+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:12:55.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:12:55.764+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:12:55.763+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:12:55.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.171 seconds
+[2025-01-31T04:13:47.109+0000] {processor.py:186} INFO - Started process (PID=1849) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:13:47.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:13:47.111+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:13:47.110+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:13:47.134+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:13:47.156+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:13:47.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:13:47.181+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:13:47.181+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:13:47.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.101 seconds
+[2025-01-31T04:14:17.766+0000] {processor.py:186} INFO - Started process (PID=1918) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:14:17.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:14:17.770+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:14:17.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:14:17.800+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:14:17.853+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:14:17.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:14:17.966+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:14:17.966+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:14:18.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.253 seconds
+[2025-01-31T04:14:48.131+0000] {processor.py:186} INFO - Started process (PID=1988) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:14:48.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:14:48.133+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:14:48.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:14:48.154+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:14:48.177+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:14:48.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:14:48.201+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:14:48.201+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:14:48.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.098 seconds
+[2025-01-31T04:15:19.436+0000] {processor.py:186} INFO - Started process (PID=2056) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:15:19.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:15:19.438+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:15:19.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:15:19.464+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:15:19.487+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:15:19.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:15:19.508+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:15:19.508+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:15:19.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.094 seconds
+[2025-01-31T04:15:49.995+0000] {processor.py:186} INFO - Started process (PID=2124) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:15:49.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:15:49.998+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:15:49.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:15:50.026+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:15:50.052+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:15:50.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:15:50.086+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:15:50.086+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:15:50.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.156 seconds
+[2025-01-31T04:16:20.416+0000] {processor.py:186} INFO - Started process (PID=2189) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:16:20.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:16:20.419+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:16:20.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:16:20.450+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:16:20.473+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:16:20.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:16:20.500+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:16:20.500+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:16:20.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.111 seconds
+[2025-01-31T04:16:51.750+0000] {processor.py:186} INFO - Started process (PID=2258) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:16:51.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:16:51.753+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:16:51.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:16:51.774+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:16:51.795+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:16:51.794+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:16:51.818+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:16:51.818+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:16:51.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.094 seconds
+[2025-01-31T04:17:22.024+0000] {processor.py:186} INFO - Started process (PID=2328) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:17:22.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:17:22.027+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:17:22.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:17:22.062+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:17:22.108+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:17:22.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:17:22.138+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:17:22.138+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:17:22.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.172 seconds
+[2025-01-31T04:18:02.666+0000] {processor.py:186} INFO - Started process (PID=2362) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:18:02.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:18:02.673+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:18:02.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:18:02.725+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:18:02.761+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:18:02.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:18:02.797+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:18:02.797+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:18:02.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.173 seconds
+[2025-01-31T04:18:44.976+0000] {processor.py:186} INFO - Started process (PID=2424) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:18:44.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:18:44.980+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:18:44.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:18:45.011+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:18:45.037+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:18:45.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:18:45.066+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:18:45.065+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:18:45.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.123 seconds
+[2025-01-31T04:19:15.551+0000] {processor.py:186} INFO - Started process (PID=2493) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:19:15.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:19:15.553+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:19:15.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:19:15.576+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:19:15.599+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:19:15.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:19:15.632+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:19:15.632+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:19:15.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.119 seconds
+[2025-01-31T04:20:40.461+0000] {processor.py:186} INFO - Started process (PID=2533) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:20:40.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:20:40.469+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:20:40.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:20:40.531+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:20:40.577+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:20:40.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:20:40.649+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:20:40.648+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:20:40.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.252 seconds
+[2025-01-31T04:21:11.224+0000] {processor.py:186} INFO - Started process (PID=2602) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:21:11.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:21:11.228+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:21:11.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:21:11.254+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:21:11.280+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:21:11.280+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:21:11.322+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:21:11.321+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:21:11.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.143 seconds
+[2025-01-31T04:21:42.009+0000] {processor.py:186} INFO - Started process (PID=2669) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:21:42.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:21:42.012+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:21:42.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:21:42.040+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:21:42.062+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:21:42.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:21:42.090+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:21:42.089+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:21:42.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.114 seconds
+[2025-01-31T04:22:12.926+0000] {processor.py:186} INFO - Started process (PID=2739) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:22:12.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:22:12.929+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:22:12.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:22:12.950+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:22:12.973+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:22:12.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:22:13.146+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:22:13.146+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:22:13.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.245 seconds
+[2025-01-31T04:22:43.755+0000] {processor.py:186} INFO - Started process (PID=2808) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:22:43.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:22:43.761+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:22:43.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:22:43.785+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:22:43.811+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:22:43.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:22:44.071+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:22:44.071+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:22:44.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.346 seconds
+[2025-01-31T04:23:14.614+0000] {processor.py:186} INFO - Started process (PID=2877) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:23:14.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:23:14.617+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:23:14.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:23:14.638+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:23:14.656+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:23:14.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:23:14.826+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:23:14.826+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:23:14.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.234 seconds
+[2025-01-31T04:23:45.690+0000] {processor.py:186} INFO - Started process (PID=2947) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:23:45.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:23:45.695+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:23:45.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:23:45.740+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:23:45.784+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:23:45.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:23:45.818+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:23:45.817+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:23:45.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.177 seconds
+[2025-01-31T04:25:44.018+0000] {processor.py:186} INFO - Started process (PID=3013) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:25:44.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:25:44.028+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:25:44.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:25:44.098+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:25:44.202+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:25:44.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:25:44.302+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:25:44.301+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:25:44.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.393 seconds
+[2025-01-31T04:28:20.201+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:28:20.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:28:20.204+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:28:20.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:28:20.228+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:28:20.254+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:28:20.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:28:20.278+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:28:20.277+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:28:20.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.102 seconds
+[2025-01-31T04:28:50.409+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:28:50.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:28:50.412+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:28:50.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:28:50.430+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:28:50.451+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:28:50.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:28:50.472+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:28:50.471+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:28:50.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.091 seconds
+[2025-01-31T04:29:20.742+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:29:20.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:29:20.745+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:29:20.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:29:20.766+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:29:20.784+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:29:20.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:29:20.803+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:29:20.803+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:29:20.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.085 seconds
+[2025-01-31T04:29:51.065+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:29:51.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:29:51.069+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:29:51.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:29:51.090+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:29:51.108+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:29:51.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:29:51.129+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:29:51.129+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:29:51.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.088 seconds
+[2025-01-31T04:30:21.379+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:30:21.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:30:21.382+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:30:21.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:30:21.403+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:30:21.421+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:30:21.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:30:21.441+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:30:21.441+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:30:21.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.086 seconds
+[2025-01-31T04:30:51.735+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:30:51.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:30:51.738+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:30:51.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:30:51.759+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:30:51.778+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:30:51.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:30:51.800+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:30:51.800+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:30:51.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.087 seconds
+[2025-01-31T04:31:22.385+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:31:22.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:31:22.389+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:31:22.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:31:22.411+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:31:22.428+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:31:22.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:31:22.450+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:31:22.450+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:31:22.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.087 seconds
+[2025-01-31T04:31:52.864+0000] {processor.py:186} INFO - Started process (PID=548) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:31:52.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:31:52.870+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:31:52.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:31:52.898+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:31:52.922+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:31:52.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:31:52.961+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:31:52.961+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:31:52.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.131 seconds
+[2025-01-31T04:32:23.591+0000] {processor.py:186} INFO - Started process (PID=623) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:32:23.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:32:23.595+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:32:23.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:32:23.624+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:32:23.644+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:32:23.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:32:23.667+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:32:23.666+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:32:23.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.099 seconds
+[2025-01-31T04:32:54.235+0000] {processor.py:186} INFO - Started process (PID=693) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:32:54.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:32:54.239+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:32:54.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:32:54.271+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:32:54.296+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:32:54.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:32:54.321+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:32:54.320+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:32:54.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.118 seconds
+[2025-01-31T04:33:24.919+0000] {processor.py:186} INFO - Started process (PID=762) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:33:24.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:33:24.924+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:33:24.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:33:24.951+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:33:24.984+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:33:24.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:33:25.020+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:33:25.019+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:33:25.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.151 seconds
+[2025-01-31T04:33:55.361+0000] {processor.py:186} INFO - Started process (PID=831) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:33:55.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:33:55.372+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:33:55.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:33:55.400+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:33:55.425+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:33:55.425+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:33:55.446+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:33:55.446+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:33:55.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.119 seconds
+[2025-01-31T04:36:59.170+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:36:59.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:36:59.185+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:36:59.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:36:59.268+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:36:59.457+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:36:59.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:36:59.551+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:36:59.550+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:36:59.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.457 seconds
+[2025-01-31T04:39:21.810+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:39:21.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:39:21.815+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:39:21.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:39:21.846+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:39:21.882+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:39:21.882+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:39:21.905+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:39:21.905+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:39:21.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.119 seconds
+[2025-01-31T04:41:37.693+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:41:37.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:41:37.705+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:41:37.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:41:37.839+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:41:37.905+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:41:37.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:41:37.997+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:41:37.997+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:41:38.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.381 seconds
+[2025-01-31T04:42:09.147+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:42:09.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:42:09.157+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:42:09.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:42:09.231+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:42:10.083+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:42:10.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:42:10.235+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:42:10.235+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:42:10.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 1.223 seconds
+[2025-01-31T04:42:54.794+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:42:54.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:42:54.804+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:42:54.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:42:54.859+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:42:54.926+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:42:54.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:42:55.038+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:42:55.036+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:42:55.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.329 seconds
+[2025-01-31T04:43:25.467+0000] {processor.py:186} INFO - Started process (PID=355) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:43:25.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:43:25.473+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:43:25.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:43:25.499+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:43:25.525+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:43:25.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:43:25.550+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:43:25.550+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:43:25.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.110 seconds
+[2025-01-31T04:43:56.326+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:43:56.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:43:56.329+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:43:56.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:43:56.350+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:43:56.377+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:43:56.377+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:43:56.405+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:43:56.404+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:43:56.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.121 seconds
+[2025-01-31T04:44:26.906+0000] {processor.py:186} INFO - Started process (PID=494) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:44:26.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:44:26.911+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:44:26.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:44:26.933+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:44:26.963+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:44:26.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:44:26.991+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:44:26.991+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:44:27.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.113 seconds
+[2025-01-31T04:44:57.086+0000] {processor.py:186} INFO - Started process (PID=565) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:44:57.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:44:57.090+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:44:57.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:44:57.121+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:44:57.142+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:44:57.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:44:57.167+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:44:57.167+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:44:57.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.106 seconds
+[2025-01-31T04:46:59.481+0000] {processor.py:186} INFO - Started process (PID=600) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:46:59.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:46:59.512+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:46:59.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:46:59.645+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:46:59.762+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:46:59.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:46:59.889+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:46:59.888+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:46:59.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.497 seconds
+[2025-01-31T04:47:45.793+0000] {processor.py:186} INFO - Started process (PID=669) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:47:45.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:47:45.797+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:47:45.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:47:45.825+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:47:45.853+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:47:45.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:47:45.885+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:47:45.885+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:47:45.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.129 seconds
+[2025-01-31T04:49:25.136+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:49:25.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:49:25.140+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:49:25.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:49:25.170+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:49:25.201+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:49:25.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:49:25.238+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:49:25.238+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:49:25.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.129 seconds
+[2025-01-31T04:49:55.825+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:49:55.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:49:55.831+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:49:55.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:49:55.860+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:49:55.884+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:49:55.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:49:55.919+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:49:55.919+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:49:55.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.129 seconds
+[2025-01-31T04:50:26.941+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:50:26.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:50:26.945+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:50:26.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:50:26.964+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:50:26.984+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:50:26.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:50:27.005+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:50:27.005+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:50:27.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.091 seconds
+[2025-01-31T04:50:57.361+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:50:57.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:50:57.364+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:50:57.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:50:57.386+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:50:57.408+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:50:57.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:50:57.429+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:50:57.429+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:50:57.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.090 seconds
+[2025-01-31T04:51:28.178+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:51:28.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:51:28.183+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:51:28.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:51:28.207+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:51:28.230+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:51:28.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:51:28.273+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:51:28.273+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:51:28.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.141 seconds
+[2025-01-31T04:51:58.762+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:51:58.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:51:58.765+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:51:58.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:51:58.789+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:51:58.810+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:51:58.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:51:58.834+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:51:58.834+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:51:58.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.099 seconds
+[2025-01-31T04:52:28.955+0000] {processor.py:186} INFO - Started process (PID=491) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:52:28.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:52:28.960+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:52:28.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:52:28.984+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:52:29.008+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:52:29.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:52:29.033+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:52:29.033+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:52:29.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.105 seconds
+[2025-01-31T04:52:59.817+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:52:59.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:52:59.823+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:52:59.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:52:59.864+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:52:59.903+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:52:59.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:52:59.944+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:52:59.944+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:52:59.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.171 seconds
+[2025-01-31T04:54:44.539+0000] {processor.py:186} INFO - Started process (PID=629) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:54:44.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:54:44.553+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:54:44.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:54:44.612+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:54:44.747+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:54:44.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:54:44.825+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:54:44.824+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:54:44.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.360 seconds
+[2025-01-31T04:55:15.082+0000] {processor.py:186} INFO - Started process (PID=699) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:55:15.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:55:15.086+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:55:15.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:55:15.110+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:55:15.133+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:55:15.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:55:15.157+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:55:15.157+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:55:15.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.105 seconds
+[2025-01-31T04:55:45.859+0000] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:55:45.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:55:45.862+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:55:45.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:55:45.887+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:55:45.922+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:55:45.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:55:45.973+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:55:45.973+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:55:46.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.154 seconds
+[2025-01-31T04:57:25.532+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:57:25.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:57:25.540+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:57:25.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:57:25.610+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:57:25.674+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:57:25.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:57:25.732+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:57:25.732+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:57:25.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.268 seconds
+[2025-01-31T04:57:55.905+0000] {processor.py:186} INFO - Started process (PID=912) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:57:55.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:57:55.909+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:57:55.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:57:55.934+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:57:55.958+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:57:55.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:57:55.983+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:57:55.983+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:57:56.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.111 seconds
+[2025-01-31T04:58:26.099+0000] {processor.py:186} INFO - Started process (PID=982) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:58:26.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:58:26.103+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:58:26.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:58:26.121+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:58:26.142+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:58:26.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:58:26.163+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:58:26.163+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:58:26.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.088 seconds
+[2025-01-31T04:59:52.001+0000] {processor.py:186} INFO - Started process (PID=1045) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:59:52.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T04:59:52.012+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:59:52.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:59:52.069+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T04:59:52.114+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:59:52.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T04:59:52.165+0000] {logging_mixin.py:190} INFO - [2025-01-31T04:59:52.164+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T04:59:52.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.212 seconds
+[2025-01-31T05:01:19.185+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:01:19.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:01:19.210+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:01:19.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:01:19.350+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:01:19.496+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:01:19.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:01:19.630+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:01:19.629+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:01:19.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.581 seconds
+[2025-01-31T05:01:50.083+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:01:50.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:01:50.085+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:01:50.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:01:50.107+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:01:50.192+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:01:50.191+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:01:50.223+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:01:50.223+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:01:50.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.169 seconds
+[2025-01-31T05:03:03.313+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:03:03.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:03:03.321+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:03:03.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:03:03.364+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:03:03.463+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:03:03.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:03:03.515+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:03:03.514+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:03:03.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.264 seconds
+[2025-01-31T05:04:54.468+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:04:54.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:04:54.472+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:04:54.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:04:54.498+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:04:54.522+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:04:54.522+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:04:54.541+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:04:54.541+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:04:54.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.100 seconds
+[2025-01-31T05:06:05.983+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:06:05.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:06:05.987+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:06:05.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:06:06.011+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:06:06.037+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:06:06.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:06:06.060+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:06:06.060+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:06:06.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.109 seconds
+[2025-01-31T05:06:49.621+0000] {processor.py:186} INFO - Started process (PID=139) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:06:49.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:06:49.625+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:06:49.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:06:49.650+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:06:49.677+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:06:49.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:06:49.701+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:06:49.700+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:06:49.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.108 seconds
+[2025-01-31T05:07:20.510+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:07:20.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:07:20.513+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:07:20.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:07:20.532+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:07:20.552+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:07:20.552+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:07:20.577+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:07:20.577+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:07:20.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.100 seconds
+[2025-01-31T05:07:51.790+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:07:51.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:07:51.799+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:07:51.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:07:51.852+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:07:52.500+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:07:52.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:07:52.664+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:07:52.660+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:08:09.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 17.454 seconds
+[2025-01-31T05:08:39.636+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:08:39.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:08:39.639+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:08:39.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:08:39.660+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:08:39.679+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:08:39.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:08:39.706+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:08:39.706+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:08:39.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.104 seconds
+[2025-01-31T05:09:10.751+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:09:10.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:09:10.760+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:09:10.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:09:10.830+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:09:41.305+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 942, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 982, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 708, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 443, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 721, in _sync_to_db
+    _serialize_dag_capturing_errors(dag, session, processor_subdir)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/serialized_dag.py", line 160, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-01-31T05:11:02.849+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:11:02.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:11:02.863+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:11:02.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:11:02.975+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:11:30.104+0000] {processor.py:211} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 188, in _handle_dag_file_processing
+    result: tuple[int, int, int] = dag_file_processor.process_file(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 942, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 982, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 708, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 443, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 418, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/tenacity/__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 721, in _sync_to_db
+    _serialize_dag_capturing_errors(dag, session, processor_subdir)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/serialized_dag.py", line 160, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-01-31T05:17:53.885+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:17:53.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:17:53.909+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:17:53.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:17:54.021+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:17:54.895+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:17:54.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:17:55.073+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:17:55.072+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:17:55.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 1.319 seconds
+[2025-01-31T05:18:25.958+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:18:25.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:18:25.971+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:18:25.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:18:26.016+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:18:26.067+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:18:26.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:18:26.115+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:18:26.115+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:18:26.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.226 seconds
+[2025-01-31T05:18:56.625+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:18:56.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:18:56.629+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:18:56.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:18:56.650+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:18:56.667+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:18:56.667+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:18:56.686+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:18:56.686+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:18:56.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.088 seconds
+[2025-01-31T05:19:26.824+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:19:26.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:19:26.827+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:19:26.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:19:26.853+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:19:26.876+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:19:26.875+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:19:26.897+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:19:26.897+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:19:26.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.099 seconds
+[2025-01-31T05:19:58.382+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:19:58.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:19:58.386+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:19:58.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:19:58.414+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:19:58.441+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:19:58.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:19:58.475+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:19:58.474+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:19:58.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.133 seconds
+[2025-01-31T05:20:30.176+0000] {processor.py:186} INFO - Started process (PID=429) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:20:30.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:20:30.185+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:20:30.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:20:30.251+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:20:30.314+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:20:30.313+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:20:30.423+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:20:30.423+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:20:30.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.300 seconds
+[2025-01-31T05:21:00.790+0000] {processor.py:186} INFO - Started process (PID=496) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:21:00.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:21:00.794+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:21:00.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:21:00.816+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:21:00.836+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:21:00.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:21:00.856+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:21:00.856+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:21:00.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.090 seconds
+[2025-01-31T05:21:31.267+0000] {processor.py:186} INFO - Started process (PID=566) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:21:31.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:21:31.271+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:21:31.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:21:31.298+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:21:31.326+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:21:31.325+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:21:31.352+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:21:31.351+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:21:31.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.117 seconds
+[2025-01-31T05:22:02.354+0000] {processor.py:186} INFO - Started process (PID=635) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:22:02.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:22:02.357+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:22:02.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:22:02.377+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:22:02.397+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:22:02.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:22:02.420+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:22:02.420+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:22:02.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.095 seconds
+[2025-01-31T05:23:38.810+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:23:38.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:23:38.815+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:23:38.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:23:38.845+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:23:38.908+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:23:38.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:23:38.948+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:23:38.947+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:23:38.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.163 seconds
+[2025-01-31T05:26:54.306+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:26:54.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:26:54.324+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:26:54.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:26:54.448+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:26:57.508+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:26:57.501+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:26:57.589+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:26:57.587+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:26:57.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 3.379 seconds
+[2025-01-31T05:27:28.600+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:27:28.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:27:28.615+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:27:28.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:27:28.674+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:27:28.951+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:27:28.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:27:29.032+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:27:29.031+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:27:29.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.514 seconds
+[2025-01-31T05:27:59.777+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:27:59.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:27:59.781+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:27:59.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:27:59.805+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:27:59.836+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:27:59.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:27:59.873+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:27:59.872+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:27:59.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.133 seconds
+[2025-01-31T05:28:30.161+0000] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:28:30.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:28:30.169+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:28:30.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:28:30.199+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:28:30.229+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:28:30.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:28:30.255+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:28:30.255+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:28:30.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.124 seconds
+[2025-01-31T05:30:07.154+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:30:07.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:30:07.160+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:30:07.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:30:07.196+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:30:07.236+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:30:07.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:30:07.271+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:30:07.271+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:30:07.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.164 seconds
+[2025-01-31T05:30:38.884+0000] {processor.py:186} INFO - Started process (PID=448) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:30:38.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:30:38.890+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:30:38.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:30:38.937+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:30:39.164+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:30:39.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:30:39.336+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:30:39.332+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:30:39.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.576 seconds
+[2025-01-31T05:31:31.209+0000] {processor.py:186} INFO - Started process (PID=482) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:31:31.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:31:31.219+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:31:31.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:31:31.268+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:31:31.314+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:31:31.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:31:31.362+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:31:31.362+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:31:31.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.211 seconds
+[2025-01-31T05:32:01.971+0000] {processor.py:186} INFO - Started process (PID=551) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:32:01.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:32:01.978+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:32:01.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:32:02.004+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:32:02.030+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:32:02.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:32:02.052+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:32:02.052+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:32:02.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.121 seconds
+[2025-01-31T05:32:32.368+0000] {processor.py:186} INFO - Started process (PID=620) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:32:32.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:32:32.373+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:32:32.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:32:32.399+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:32:32.425+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:32:32.425+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:32:32.452+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:32:32.452+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:32:32.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.122 seconds
+[2025-01-31T05:33:02.842+0000] {processor.py:186} INFO - Started process (PID=689) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:33:02.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:33:02.845+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:33:02.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:33:02.865+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:33:02.881+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:33:02.881+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:33:02.897+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:33:02.897+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:33:02.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.077 seconds
+[2025-01-31T05:33:33.381+0000] {processor.py:186} INFO - Started process (PID=762) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:33:33.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:33:33.384+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:33:33.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:33:33.407+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:33:33.426+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:33:33.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:33:33.446+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:33:33.446+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:33:33.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.092 seconds
+[2025-01-31T05:34:03.943+0000] {processor.py:186} INFO - Started process (PID=831) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:34:03.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:34:03.947+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:34:03.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:34:03.973+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:34:04.002+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:34:04.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:34:04.036+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:34:04.035+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:34:04.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.126 seconds
+[2025-01-31T05:34:34.414+0000] {processor.py:186} INFO - Started process (PID=901) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:34:34.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:34:34.421+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:34:34.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:34:34.476+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:34:34.514+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:34:34.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:34:34.554+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:34:34.553+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:34:34.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.183 seconds
+[2025-01-31T05:35:05.199+0000] {processor.py:186} INFO - Started process (PID=972) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:35:05.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:35:05.204+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:35:05.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:35:05.235+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:35:05.262+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:35:05.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:35:05.294+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:35:05.293+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:35:05.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.164 seconds
+[2025-01-31T05:35:35.966+0000] {processor.py:186} INFO - Started process (PID=1041) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:35:35.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:35:35.970+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:35:35.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:35:35.994+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:35:36.016+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:35:36.015+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:35:36.036+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:35:36.035+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:35:36.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.092 seconds
+[2025-01-31T05:36:35.963+0000] {processor.py:186} INFO - Started process (PID=1082) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:36:35.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:36:35.974+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:36:35.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:36:36.031+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:36:36.077+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:36:36.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:36:36.139+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:36:36.139+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:36:36.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.247 seconds
+[2025-01-31T05:38:26.715+0000] {processor.py:186} INFO - Started process (PID=1140) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:38:26.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:38:26.731+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:38:26.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:38:26.772+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:38:26.815+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:38:26.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:38:26.855+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:38:26.854+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:38:26.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.200 seconds
+[2025-01-31T05:44:31.751+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:44:31.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:44:32.002+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:44:31.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:44:32.118+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:44:32.329+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:44:32.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:44:32.651+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:44:32.651+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:44:32.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 1.229 seconds
+[2025-01-31T05:45:03.000+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:45:03.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:45:03.005+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:45:03.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:45:03.056+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:45:03.087+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:45:03.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:45:03.137+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:45:03.137+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:45:03.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.175 seconds
+[2025-01-31T05:45:33.325+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:45:33.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:45:33.332+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:45:33.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:45:33.390+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:45:33.421+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:45:33.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:45:33.450+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:45:33.450+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:45:33.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.167 seconds
+[2025-01-31T05:46:03.894+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:46:03.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:46:03.902+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:46:03.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:46:03.990+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:46:04.036+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:46:04.035+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:46:04.088+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:46:04.087+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:46:04.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.249 seconds
+[2025-01-31T05:46:34.989+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:46:35.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:46:36.358+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:46:35.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:46:36.642+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:46:36.833+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:46:36.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:46:37.044+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:46:37.043+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:46:37.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 2.345 seconds
+[2025-01-31T05:47:07.654+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:47:07.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:47:07.662+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:47:07.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:47:07.708+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:47:07.778+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:47:07.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:47:07.820+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:47:07.820+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:47:07.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.223 seconds
+[2025-01-31T05:47:38.239+0000] {processor.py:186} INFO - Started process (PID=491) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:47:38.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:47:38.263+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:47:38.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:47:38.326+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:47:38.360+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:47:38.359+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:47:38.387+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:47:38.387+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:47:38.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.219 seconds
+[2025-01-31T05:48:08.676+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:48:08.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:48:08.682+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:48:08.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:48:08.740+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:48:08.781+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:48:08.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:48:08.811+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:48:08.811+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:48:08.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.171 seconds
+[2025-01-31T05:48:39.241+0000] {processor.py:186} INFO - Started process (PID=629) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:48:39.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:48:39.247+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:48:39.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:48:39.307+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:48:39.367+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:48:39.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:48:39.401+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:48:39.401+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:48:39.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.202 seconds
+[2025-01-31T05:49:10.026+0000] {processor.py:186} INFO - Started process (PID=698) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:49:10.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:49:10.032+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:49:10.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:49:10.086+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:49:10.117+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:49:10.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:49:10.148+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:49:10.147+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:49:10.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.164 seconds
+[2025-01-31T05:49:41.107+0000] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:49:41.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:49:41.113+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:49:41.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:49:41.181+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:49:41.226+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:49:41.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:49:41.274+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:49:41.273+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:49:41.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.213 seconds
+[2025-01-31T05:50:11.819+0000] {processor.py:186} INFO - Started process (PID=837) to work on /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:50:11.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/p_b_code.py for tasks to queue
+[2025-01-31T05:50:11.827+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:50:11.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:50:11.874+0000] {processor.py:925} INFO - DAG(s) 'branching_dag_example' retrieved from /opt/airflow/dags/p_b_code.py
+[2025-01-31T05:50:11.963+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:50:11.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-31T05:50:12.016+0000] {logging_mixin.py:190} INFO - [2025-01-31T05:50:12.016+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_dag_example to 2025-01-30 00:00:00+00:00, run_after=2025-01-31 00:00:00+00:00
+[2025-01-31T05:50:12.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/p_b_code.py took 0.258 seconds
